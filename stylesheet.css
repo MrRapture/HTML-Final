@@ -1,0 +1,327 @@
+﻿body {
+    /*background-color: rebeccapurple;*/
+    background-image: url(images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: ghostwhite;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 30px;
+}
+
+h0 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 50px;
+    padding-top: 0em;     /*Padding Withing th Limited Run Games Box*/
+    padding-bottom: 0em;  /*Padding Withing th Limited Run Games Box*/
+    padding-left: 0em;    /*Padding Withing th Limited Run Games Box*/
+    padding-right: 0em;   /*Padding Withing th Limited Run Games Box*/
+}
+
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 0em;       
+    padding-bottom: 0em;    
+    padding-left: 0em;      
+    padding-right: 0em;     
+}
+
+h2 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 0em; 
+    padding-bottom: 0em; 
+    padding-left: 0em; 
+    padding-right: 0em; 
+}
+
+h3 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 0em; 
+    padding-bottom: 0em; 
+    padding-left: 0em; 
+    padding-right: 0em; 
+}
+h4 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 0em; 
+    padding-bottom: 0em; 
+    padding-left: 0em; 
+    padding-right: 0em; 
+}
+h5 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 0em; 
+    padding-bottom: 0em; 
+    padding-left: 0em; 
+    padding-right: 0em; 
+}
+
+
+span {
+    color: #36bcb9;
+    padding: 0px 0px 0px 0px;
+}
+
+/*First Page*/
+p0 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 13px;
+    color: navajowhite;
+}
+}
+p1 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 40px;
+    color: navajowhite;
+}
+p2 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: navajowhite;
+}
+p3 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 30px;
+    color: navajowhite;
+}
+
+/*Second Page*/
+p4 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: navajowhite;
+}
+p5 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: navajowhite;
+}
+p6 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: navajowhite;
+}
+/*Third Page*/
+p7 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: navajowhite;
+}
+
+p8 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: navajowhite;
+}
+
+p9 {
+    text-decoration-color: black;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: navajowhite;
+}
+
+/*PAGE 1*/
+.wrapper1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /*3 BOX Column Sizes*/
+    grid-template-rows: 12em; /*Height of Rows*/
+    grid-column-gap: 4em; /*Gap Inbetween Boxes*/
+    grid-row-gap: 5px;
+    font-size: large;
+    font-family: Arial;
+    font-display: swap;
+}    .wrapper1 > div {
+        background-color: black;
+        border: 5px;
+        border-style: solid;
+        border-color: blueviolet; /* NO DOT */
+        border-style: solid;
+        grid-row-gap: 5em;
+        padding: 0px 0px 0px 0px; /*Push Down from Top, Push Left from Right, Push Down from Bottom, Push from left to right*/
+    }
+/*PAGE 2*/
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*3 BOX Column Sizes*/
+    grid-template-rows: 12em; /*Height of Rows*/
+    grid-column-gap: 6.5em; /*Gap Inbetween Boxes*/
+    grid-row-gap: 5em;
+    font-size: large;
+    font-family: Arial;
+    font-display: swap;
+}    .wrapper2 > div {
+        background-color: black;
+        border: 5px;
+        border-style: solid;
+        border-color: blueviolet; /* NO DOT */
+        border-style: solid;
+        grid-row-gap: 5em;
+        padding: 0px 0px 0px 0px; /*Push Down from Top, Push Left from Right, Push Down from Bottom, Push from left to right*/
+    }
+/*PAGE 3*/
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*3 BOX Column Sizes*/
+    grid-template-rows: 13em; /*Height of Rows*/
+    grid-column-gap: 3em; /*Gap Inbetween Boxes*/
+    grid-row-gap: 1px;
+    font-size: large;
+    font-family: Arial;
+    font-display: swap;
+}
+    .wrapper3 > div {
+        background-color: black;
+        border: 5px;
+        border-style: solid;
+        border-color: blueviolet; /* NO DOT */
+        border-style: solid;
+        grid-row-gap: 5em;
+        padding: 0px 0px 0px 0px; /*Push Down from Top, Push Left from Right, Push Down from Bottom, Push from left to right*/
+    }
+
+.wrapper4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*3 BOX Column Sizes*/
+    grid-template-rows: 13em; /*Height of Rows*/
+    grid-column-gap: 3em; /*Gap Inbetween Boxes*/
+    grid-row-gap: 1px;
+    font-size: large;
+    font-family: Arial;
+    font-display: swap;
+}
+    .wrapper4 > div {
+        background-color: black;
+        border: 5px;
+        border-style: solid;
+        border-color: blueviolet; /* NO DOT */
+        border-style: solid;
+        grid-row-gap: 5em;
+        padding: 0px 0px 0px 0px; /*Push Down from Top, Push Left from Right, Push Down from Bottom, Push from left to right*/
+    }
+
+div {
+    border-color: black;
+    border-style: hidden;
+    padding: 40px 20px 40px 30px; /*My background image*/
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+.footer {
+    position: center;
+    padding-top: 0em;
+    padding-bottom: 00em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.box1:hover img {
+    height: 50px;
+    width: 50px;
+    padding: 0px 0px 0px 0px;
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.box2:hover img {
+    height: 50px;
+    width: 50px;
+    padding: 0px 0px 0px 0px;
+    opacity: 0.5;
+    transition: 0.9s;
+}
+
+.box3:hover img {
+    height: 50px;
+    width: 50px;
+    padding: 0px 0px 0px 0px;
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.box3 {
+    color:ghostwhite;
+    width: 320%;
+    height: 100%;
+}
+
+.box4 {
+    width: 99%;
+    height: 100%;
+
+}
+.box5 {
+    width: 100%;
+    height: 140%;
+}
+.box6 {
+    width: 100%;
+    height: 140%;
+}
+.box7 {
+    width: 100%;
+    height: 140%;
+}
+.box11 {
+    width: 100%;
+    height: 190%;
+}
+.box12 {
+    width: 100%;
+    height: 410%;
+}
+.box13 {
+    width: 100%;
+    height: 270%;
+}
+
+
+/*Media Queries 
+    
+                Bellow, Changes from Laptop View into Phone View*/
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: purple;
+    }
+
+
+
+    /*Ran out of time to do media queries with vw, and vh*/
+}
